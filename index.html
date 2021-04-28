@@ -15,165 +15,173 @@
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <img class="logo-svg" src="./images/logo.svg" alt="" />
-      </div>
-      <nav class="navbar">
-        <ol>
-          <li class="navbar__element"><a href="#">Features</a></li>
-          <li class="navbar__element"><a href="#">Team</a></li>
-          <li class="navbar__element"><a href="#">Sign In</a></li>
-        </ol>
-      </nav>
-    </header>
-
-    <main class="main">
-      <section class="features features--files">
-        <div class="features__copy">
-          <div class="features__title">
-            All your files in one secure location, accessible anywhere.
-          </div>
-          <p class="text text--features">
-            Fylo stores your most important files in one secure location. Access them
-            wherever you need, share and collaborate with friends, family, and co-workers.
-          </p>
-          <form class="form">
-            <input
-              class="input-email"
-              type="email"
-              name=""
-              id=""
-              placeholder="Enter your email..."
-            />
-            <button class="btn">Get Started</button>
-          </form>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img class="logo-svg" src="./images/logo.svg" alt="" />
         </div>
-        <div class="features__picture">
-          <img src="./images/illustration-1.svg" alt="" />
-        </div>
-      </section>
+        <nav class="navbar">
+          <ul>
+            <li class="navbar__element"><a href="#">Features</a></li>
+            <li class="navbar__element"><a href="#">Team</a></li>
+            <li class="navbar__element"><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
 
-      <section class="features features--productive">
-        <div class="features__copy">
-          <div class="features__title">Stay productive, wherever you are</div>
-          <p class="text text--features">
-            Never let location be an issue when accessing your files. Fylo has you covered
-            for all of your file storage needs. Securely share files and folders with
-            friends, family and colleagues for live collaboration. No email attachments
-            required!
-          </p>
-          <div class="features__link">
-            <a href="#">See how Fylo Works</a>
+      <main class="main">
+        <section class="features features--files">
+          <div class="features__copy">
+            <h2 class="features__title">
+              All your files in one secure location, accessible anywhere.
+            </h2>
+            <p class="text text--features">
+              Fylo stores your most important files in one secure location. Access them
+              wherever you need, share and collaborate with friends, family, and
+              co-workers.
+            </p>
+            <form class="form">
+              <input
+                class="input-email"
+                type="email"
+                name=""
+                id=""
+                placeholder="Enter your email..."
+              />
+              <button class="btn">Get Started</button>
+            </form>
           </div>
+          <div class="features__picture">
+            <img src="./images/illustration-1.svg" alt="" />
+          </div>
+        </section>
 
-          <div class="features__quote">
-            <div class="quote-text">
-              Fylo has improved our team productivity by an order of magnitude. Since
-              making the switch our team has become a well-oiled collaboration machine.
+        <section class="features features--productive">
+          <div class="features__copy">
+            <h2 class="features__title features__title--productive">
+              Stay productive, wherever you are
+            </h2>
+            <p class="text text--features">
+              Never let location be an issue when accessing your files. Fylo has you
+              covered for all of your file storage needs.
+            </p>
+
+            <p class="text text--features">
+              Securely share files and folders with friends, family and colleagues for
+              live collaboration. No email attachments required!
+            </p>
+            <div class="features__link">
+              <a href="#">See how Fylo Works</a>
             </div>
-            <div class="quote-author">
-              <div class="author-picture">
-                <img src="./images/avatar-testimonial.jpg" alt="" />
+
+            <div class="features__quote">
+              <p class="quote-text">
+                Fylo has improved our team productivity by an order of magnitude. Since
+                making the switch our team has become a well-oiled collaboration machine.
+              </p>
+              <div class="quote-author">
+                <div class="author-picture">
+                  <img src="./images/avatar-testimonial.jpg" alt="" />
+                </div>
+                <div class="author-info">
+                  <p class="author-name">Kyle Burton</p>
+                  <p class="author-position">Founder & CEO, Huddle</p>
+                </div>
               </div>
-              <div class="author-info">
-                <p class="author-name">Kyle Burton</p>
-                <div class="author-position">Founder & CEO, Huddle</div>
-              </div>
             </div>
+          </div>
+
+          <div class="features__picture">
+            <img src="./images/illustration-2.svg" alt="" />
+          </div>
+        </section>
+
+        <section class="early-access">
+          <div class="early-access__copy">
+            <h2 class="early-access__title">Get early access today</h2>
+            <p class="text text--early-access">
+              It only takes a minute to sign up and our free starter tier is extremely
+              generous. If you have any questions, our support team would be happy to help
+              you.
+            </p>
+          </div>
+          <div class="form-area">
+            <form class="form">
+              <input
+                class="input-email"
+                type="email"
+                name=""
+                id=""
+                placeholder="email@example.com"
+              />
+              <button class="btn">Get Started For Free</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="logo logo--footer">
+          <img class="logo-img" src="./images/logo.svg" alt="" />
+        </div>
+
+        <div class="footer-info">
+          <div class="contact">
+            <div class="contact__medium contact__medium--phone">
+              <div class="contact__icon">
+                <img src="./images/icon-phone.svg" alt="" class="contact-icon-img" />
+              </div>
+              <p class="contact__text">Phone: +1-543-123-4567</p>
+            </div>
+            <div class="contact__medium contact__medium--email">
+              <div class="contact__icon">
+                <img src="./images/icon-email.svg" alt="" class="contact-icon-img" />
+              </div>
+              <p class="contact__text">example@fylo.com</p>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <nav class="navbar">
+              <ul>
+                <li class="navbar__element"><a href="#">About Us</a></li>
+                <li class="navbar__element"><a href="#">Jobs</a></li>
+                <li class="navbar__element"><a href="#">Press</a></li>
+                <li class="navbar__element"><a href="#">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer-links footer-links--2">
+            <nav class="navbar">
+              <ul>
+                <li class="navbar__element"><a href="#">Contact Us</a></li>
+                <li class="navbar__element"><a href="#">Terms</a></li>
+                <li class="navbar__element"><a href="#">Privacy</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer-socials">
+            <nav class="navbar">
+              <ul>
+                <a class="social-link" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="social-link" href=""> <i class="fab fa-twitter"></i> </a>
+                <a class="social-link" href=""> <i class="fab fa-instagram"></i> </a>
+              </ul>
+            </nav>
           </div>
         </div>
 
-        <div class="features__picture">
-          <img src="./images/illustration-2.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="early-access">
-        <div class="early-access__copy">
-          <h2 class="early-access__title">Get early access today</h2>
-          <p class="text text--early-access">
-            It only takes a minute to sign up and our free starter tier is extremely
-            generous. If you have any questions, our support team would be happy to help
-            you.
+        <div class="signature">
+          <p class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">Xavi Guasch</a>.
           </p>
         </div>
-        <div class="form-area">
-          <form class="form">
-            <input
-              class="input-email"
-              type="email"
-              name=""
-              id=""
-              placeholder="email@example.com"
-            />
-            <button class="btn">Get Started For Free</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="logo">
-        <img class="logo-svg" src="./images/logo.svg" alt="" />
-      </div>
-
-      <div class="footer-info">
-        <div class="contact">
-          <div class="contact__medium contact__medium--phone">
-            <div class="contact__icon">
-              <img src="./images/icon-phone.svg" alt="" class="contact-icon-img" />
-            </div>
-            <p class="contact__text">Phone: +1-543-123-4567</p>
-          </div>
-          <div class="contact__medium contact__medium--email">
-            <div class="contact__icon">
-              <img src="./images/icon-email.svg" alt="" class="contact-icon-img" />
-            </div>
-            <p class="contact__text">example@fylo.com</p>
-          </div>
-        </div>
-
-        <div class="footer-links">
-          <nav class="navbar">
-            <ol>
-              <li class="navbar__element"><a href="#">About Us</a></li>
-              <li class="navbar__element"><a href="#">Jobs</a></li>
-              <li class="navbar__element"><a href="#">Press</a></li>
-              <li class="navbar__element"><a href="#">Blog</a></li>
-            </ol>
-          </nav>
-        </div>
-
-        <div class="footer-links footer-links--2">
-          <nav class="navbar">
-            <ol>
-              <li class="navbar__element"><a href="#">Contact Us</a></li>
-              <li class="navbar__element"><a href="#">Terms</a></li>
-              <li class="navbar__element"><a href="#">Privacy</a></li>
-            </ol>
-          </nav>
-        </div>
-
-        <div class="footer-socials">
-          <nav class="navbar">
-            <ol>
-              <a class="social-link" href=""><i class="fab fa-facebook"></i></a>
-              <a class="social-link" href=""> <i class="fab fa-instagram"></i> </a>
-              <a class="social-link" href=""> <i class="fab fa-twitter-square"></i> </a>
-            </ol>
-          </nav>
-        </div>
-      </div>
-
-      <div class="signature">
-        <p class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Xavi Guasch</a>.
-        </p>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
