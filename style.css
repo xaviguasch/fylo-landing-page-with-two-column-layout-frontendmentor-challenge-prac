@@ -443,6 +443,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     width: 85%;
+    padding: 0;
   }
 
   .features--files .features__copy > .form .input-email {
