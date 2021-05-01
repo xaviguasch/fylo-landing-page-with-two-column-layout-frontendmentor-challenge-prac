@@ -70,6 +70,10 @@ img {
   color: inherit;
   font-size: var(--fs-12);
 }
+.navbar__element > a:hover,
+.navbar__element > a:active {
+  text-decoration: underline;
+}
 
 .features__title {
   font-family: var(--ff-secondary);
@@ -393,7 +397,7 @@ img {
   .container {
     margin: 3em auto 0;
 
-    max-width: unset;
+    max-width: 1400px;
   }
 
   .header {
@@ -491,6 +495,7 @@ img {
 
   .early-access__copy {
     text-align: left;
+    width: 50%;
   }
 
   .early-access__title {
@@ -503,6 +508,8 @@ img {
   }
 
   .early-access .form-area {
+    width: 40%;
+
     margin-top: 1em;
     justify-self: flex-start;
   }
